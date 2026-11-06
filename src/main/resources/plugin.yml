@@ -1,0 +1,21 @@
+name: BenimHile
+version: 1.0
+main: dev.benim.hile.BenimHile
+api-version: "1.20"
+description: Kendi sunucum icin noclip, xray, killaura
+commands:
+  noclip:
+    description: Duvarlarin icinden gec (spectator toggle)
+    permission: benimhile.use
+    permission-message: Unknown command. Type "/help" for help.
+  xray:
+    description: Sadece cevherleri gor
+    permission: benimhile.use
+    permission-message: Unknown command. Type "/help" for help.
+  killaura:
+    description: Etrafindaki dusmanlara otomatik vur
+    permission: benimhile.use
+    permission-message: Unknown command. Type "/help" for help.
+permissions:
+  benimhile.use:
+    default: false
